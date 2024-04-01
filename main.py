@@ -170,7 +170,7 @@ def processar_planilha(uploaded_file):
 
 # Streamlit App
 def main():
-    st.title('Upload e Processamento de Planilha XLSX com Streamlit')
+    st.title('Upload e Processamento de Planilha XLSX - PARA HUGO!! ')
 
     uploaded_file = st.file_uploader("Faça upload de sua planilha XLSX", type="xlsx")
     
@@ -180,7 +180,7 @@ def main():
         st.success('Planilha processada com sucesso!')
         st.download_button(label="Baixar Planilha Ajustada",
                            data=processed_file,
-                           file_name="planilha_ajustada2.xlsx")
+                           file_name="PlanilhaOrganizada.xlsx")
 
 if __name__ == "__main__":
     main()
